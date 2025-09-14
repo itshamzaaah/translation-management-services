@@ -1,4 +1,4 @@
-#Translation Management Services
+# Translation Management Services
 
 The Translation Management Service is a RESTful API-driven service that allows storing, retrieving, updating, and searching translations for multiple locales. It supports tagging translations for different contexts (web, mobile, desktop) and provides efficient JSON export for frontend applications.
 
