@@ -5,12 +5,12 @@
 </head>
 <body>
 
-<h1>🌍 Translation Management Service</h1>
+<h1> Translation Management Service</h1>
 <p>A <strong>RESTful API-driven service</strong> for managing translations across multiple locales with tagging, search, and JSON export support. Built for high performance and secure integration into modern applications.</p>
 
 <hr>
 
-<h2>✨ Features</h2>
+<h2> Features</h2>
 <ul>
     <li><strong>Multi-locale Support:</strong> Store translations for various languages (en, fr, es, etc.)</li>
     <li><strong>Tagging System:</strong> Organize translations by context (web, mobile, desktop)</li>
@@ -24,7 +24,7 @@
 
 <hr>
 
-<h2>🛠️ Technology Stack</h2>
+<h2> Technology Stack</h2>
 <ul>
     <li><strong>Framework:</strong> Spring Boot 3.5.5</li>
     <li><strong>Database:</strong> MySQL</li>
@@ -37,7 +37,7 @@
 
 <hr>
 
-<h2>📋 Prerequisites</h2>
+<h2> Prerequisites</h2>
 <p>Before running this application, make sure you have:</p>
 <ul>
     <li>Java 17 or higher</li>
@@ -47,7 +47,7 @@
 
 <hr>
 
-<h2>🚀 Installation & Setup</h2>
+<h2> Installation & Setup</h2>
 
 <h3>1. Clone the Repository</h3>
 <pre><code>git clone https://github.com/your-username/translation-management-service.git
@@ -70,7 +70,7 @@ app.jwt.expiration=86400000 # 24 hours in milliseconds
 
 <hr>
 
-<h2>🔐 Authentication</h2>
+<h2> Authentication</h2>
 
 <h3>1. Obtain JWT Token</h3>
 <pre><code>curl -X POST http://localhost:8080/api/auth/login \
@@ -91,7 +91,7 @@ app.jwt.expiration=86400000 # 24 hours in milliseconds
 
 <hr>
 
-<h2>📚 API Endpoints</h2>
+<h2> API Endpoints</h2>
 <table border="1" cellpadding="8" cellspacing="0">
     <thead>
         <tr>
@@ -115,7 +115,7 @@ app.jwt.expiration=86400000 # 24 hours in milliseconds
 
 <hr>
 
-<h2>📌 Example Requests</h2>
+<h2> Example Requests</h2>
 
 <h3>Create a Translation</h3>
 <pre><code>curl -X POST http://localhost:8080/api/translations \
@@ -137,20 +137,18 @@ app.jwt.expiration=86400000 # 24 hours in milliseconds
 
 <hr>
 
-<h2>📖 API Documentation</h2>
+<h2> API Documentation</h2>
 <p>Swagger UI is available at:</p>
 <p><code>http://localhost:8080/swagger-ui.html</code></p>
 
 <hr>
 
-<h2>🧪 Testing</h2>
+<h2> Testing</h2>
 <p>Run all tests with:</p>
 <pre><code>mvn clean test</code></pre>
 
 <hr>
 
-<h2>📜 License</h2>
-<p>This project is licensed under the <strong>MIT License</strong>.</p>
 
 </body>
 </html>
