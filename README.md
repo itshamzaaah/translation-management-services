@@ -177,6 +177,10 @@ app.jwt.expiration=86400000 # 24 hours in milliseconds
     <li>Environment-specific security configurations</li>
 </ul>
 
+<hr>
+
+<p><strong>Note:</strong> This updated README reflects the transition from <strong>API key authentication</strong> to <strong>JWT token-based authentication</strong>, providing a more secure and standardized approach to API security.</p>
+
 
 </body>
 </html>
