@@ -50,7 +50,7 @@
 <h2> Installation & Setup</h2>
 
 <h3>1. Clone the Repository</h3>
-<pre><code>git clone https://github.com/your-username/translation-management-service.git
+<pre><code>git clone https://github.com/itshamzaaah/translation-management-service.git
 cd translation-management-service
 </code></pre>
 
